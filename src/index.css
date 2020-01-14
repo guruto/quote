@@ -12,7 +12,7 @@
 }
 
 .cdx-quote__text[contentEditable="true"][data-placeholder]::before {
-  position: absolute;
+  position: absolute !important;
   content: attr(data-placeholder);
   color: #707684;
   font-weight: normal;
@@ -28,7 +28,7 @@
 }
 
 .cdx-quote__caption[contentEditable="true"][data-placeholder]::before {
-  position: absolute;
+  position: absolute !important;
   content: attr(data-placeholder);
   color: #707684;
   font-weight: normal;

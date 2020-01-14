@@ -21,7 +21,7 @@ require("./index.css").toString();
  * @property {string} captionPlaceholder - placeholder to show in quote`s caption input
  * @property {'center'|'left'} defaultAlignment - alignment to use as default
  */
-export default class Quote {
+class Quote {
   /**
    * Get Tool toolbox settings
    * icon - Tool icon's SVG
@@ -355,3 +355,5 @@ export default class Quote {
     return quoteText;
   }
 }
+
+module.exports = Quote;
